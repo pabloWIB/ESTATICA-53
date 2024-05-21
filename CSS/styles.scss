@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
+
+*{
+    cursor: none;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #848484;
+    background: #9b9b9b;
     width: 100%;
     overflow: hidden;
     font-family: "Quicksand", sans-serif;
@@ -69,7 +73,7 @@ body {
                 input[type="submit"] {
                     width: 100%;
                     background: #0078ff;
-                    background: linear-gradient(45deg, #8C1F28,#591C21);
+                    background: linear-gradient(45deg, #00747C,#00BBC9);
                     border: none;
                     cursor: pointer;
                 }
